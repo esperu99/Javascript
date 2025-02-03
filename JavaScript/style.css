@@ -1,0 +1,18 @@
+div{
+    border: 1px solid ;
+    padding: 20px;
+    margin: 20px;
+}
+body{
+    background-color: white;
+}
+.Coloragua{
+    background-color: aquamarine;
+}
+
+.Colormarron{
+    background-color: brown;
+}
+.green{
+    background-color: green;
+}
