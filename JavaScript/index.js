@@ -55,3 +55,48 @@ function alertaClick(){
     console.log("Has hecho click en el boton")
     alert("Has hecho click!!!!")
 }
+// Creamos una matriz de objetos y accedemos a sus propiedades
+const alumnosDaw = [
+    {
+    nombre : "Paco",
+    apellidos: "Sanchez Alcaraz",
+    edad: 20,
+    notas: [4,6,9]
+
+},
+{
+    nombre: "Pepa",
+    apellidos: "Perez Lopez",
+    edad: 22,
+    notas: [5,6,7]
+},
+{
+    nombre :"Luis",
+    apellidos: "Gomez",
+    edad: 22,
+    notas: [7,8,7]
+
+}
+]
+//Acceder a los elementos de un array de objetos
+console.log("Segundo alumn@", alumnosDaw[1].nombre)
+
+let filasBody = 
+        `<tr>
+            <td>${alumnosDaw[0].nombre}</td>
+            <td>Sanchez</td>
+            <td>Epica</td>
+        </tr>
+        <tr>
+            <td>Eva</td>
+            <td>Sanchez</td>
+            <td>Epica</td>
+        </tr>
+        <tr>
+            <td>Joel</td>
+            <td>Sanchez</td>
+            <td>Epica</td>
+        </tr>`
+
+        const tabla = document.querySelector("tbody")
+        miTabla.innerHTML = filasBody

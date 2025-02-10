@@ -16,3 +16,6 @@ body{
 .green{
     background-color: green;
 }
+td ,th{
+    border: 1px solid;
+}
