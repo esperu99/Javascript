@@ -1,0 +1,19 @@
+#principal{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+main{
+    display: flex;
+    gap: 800px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contenedor{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
